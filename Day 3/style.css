@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', Times, serif;
+    line-height: 22px;
+    font-size: 16px;
+    background-color: #fafafa;
+}
+h1, h2, h3, h4{
+    margin: 20px 0;
+}
+p, div {
+    margin-bottom: 15px;
+}
+ul, ol{
+    margin-left: 30px;
+}
+ul{
+    list-style-type: disc;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+h1{
+    font-size: 18px;
+    text-align: left;
+    line-height: calc(22px*1.2);
+}
+h2{
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    line-height: calc(22px*1.2);
+}
+h3{
+    font-size: 14px;
+    color: black;
+}
+.author{
+    font-size: 14px;
+    color: rgb(197, 197, 183);
+    text-align: left;
+}
+.link{
+    text-decoration: none;
+}
+.pic {
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    width: 90%;
+}
