@@ -1,0 +1,35 @@
+/**
+ CSS dùng chung
+
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+footer {
+    background-color: #212121;
+    color: #fff;
+}
+.header-top{
+    background-color: black;
+    height: 44px;
+    width: 100%;
+}
+.header-bottom{
+    background-color: white;
+    height: 76px;
+    box-shadow: 0 0 2px #333;
+}
