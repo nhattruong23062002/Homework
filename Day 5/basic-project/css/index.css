@@ -341,3 +341,6 @@ aside table tr:nth-child(2n+2) td{
 .footer__bottom p{
     text-align: center;
 }
+.video-review{
+    margin-left: 80px;
+}
